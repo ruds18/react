@@ -30,6 +30,7 @@ export default class JokeList extends Component {
         )
       })
     )
+    
     }
     render() {
         const jokes = this.state.jokes.map(joke => {
