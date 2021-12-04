@@ -5,6 +5,7 @@
     justify-content: center;
     font-weight: 400;
     padding: 0.5rem;
+    height: 80px;
 }
 .joke-buttons{
     display: flex;
@@ -18,9 +19,10 @@
     font-size: 1.2rem;
 }
  .joke-votes{
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+     margin: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     border-radius: 50%;
     border: 3px solid red;
     text-align: center;
@@ -32,7 +34,7 @@
     cursor: pointer;
 }
 .joke-emoji{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: auto;
     border-radius: 50%;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
